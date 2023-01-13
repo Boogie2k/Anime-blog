@@ -1,0 +1,523 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 4%;
+  position: fixed;
+  background: white;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+
+
+  width: 25%;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 0 4%;
+  height: 100vh;
+  background: url("./Photos/torii-forest-illustration\ 1.png");
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero div {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+
+}
+
+.hero article {
+  margin-right: 33%;
+  background: white;
+  width: 406px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+
+  line-height: 9px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 1px;
+
+  color: #FAFAFA;
+  width: 93px;
+  height: 26px;
+  /*  transform: rotate(0.48deg); */
+  background-color: black;
+}
+
+.hero h4 {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 95px;
+  /* or 112% */
+
+  letter-spacing: 3px;
+
+}
+
+.hero p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  letter-spacing: 0.5px;
+
+  color: #FAFAFA;
+
+  opacity: 0.7;
+
+}
+
+.hero input {
+  border: 0;
+
+  margin-left: 1%;
+
+
+}
+
+.hero img {
+  height: 100vh;
+
+}
+
+.hero ul {
+  margin-top: 70vh;
+}
+
+
+.hero ul li {
+
+
+  margin-bottom: 5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.5px;
+
+  color: #B8B8B8;
+}
+
+.hero ul li::before {
+  content: "";
+  /* The list style type */
+  position: absolute;
+  right: 100%;
+  /* Move the list style type to the right of the element */
+}
+
+.hero ul li::hover {
+  cursor: pointer;
+}
+
+.trendy {
+  padding: 0 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.trendy>h4 {
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  letter-spacing: 0.5px;
+
+  color: #313131;
+}
+
+.trendy>.underline {
+  height: 3px;
+  width: 100%;
+
+}
+
+.trendy>.underline div {
+  height: 100%;
+  width: 5%;
+  background: black;
+}
+
+.trendy>article {
+  display: flex;
+  flex-direction: column;
+}
+
+.trendy>article>div {
+  display: flex;
+  flex-direction: row;
+}
+
+.trendy>article>div>article {
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  padding: 0 6%;
+  justify-content: flex-start;
+  padding-top: 3%;
+  width: 50%;
+
+  background-image: url("./Photos/torii-forest-illustration\ 1.png");
+  background-color: rgba(255, 255, 255, 0.5);
+
+  opacity: 0.8;
+
+
+
+}
+
+.trendy>article>div>article h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.6988px;
+  line-height: 39px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+
+}
+
+.trendy>article>div>article p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.988px;
+  line-height: 30px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* --c-black-20 */
+
+  color: #6E6E6E;
+}
+
+.trendy>article>div>article p span {
+
+  display: flex;
+  color: black;
+  align-items: center;
+  margin-left: 45%;
+}
+
+.trendy img {
+  width: 50%;
+}
+
+.trending {
+  padding: 0 4%;
+}
+
+.trending svg {
+  width: 30.8px;
+  height: 30.8px;
+}
+
+.trending>section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.trending>.underline {
+  height: 3px;
+  width: 100%;
+
+}
+
+.trending>.underline div {
+  height: 100%;
+  width: 5%;
+  background: black;
+}
+
+.trending>article {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 2%;
+
+}
+
+.trending>article>div {
+  /*  width: 250px; */
+  width: 329px;
+
+}
+
+.trending>article>div>article h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.6988px;
+  line-height: 39px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+
+}
+
+.trending>article>div>article p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* --c-black-20 */
+
+  color: #6E6E6E;
+}
+
+.trending>article>div>article p span {
+
+  display: flex;
+  color: black;
+  align-items: center;
+  margin-left: 45%;
+}
+
+.footer {
+  background: black;
+  display: flex;
+  color: white;
+  padding: 4% 4% 1%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.footer>div>article {
+  width: 519px;
+  height: 190px;
+  text-align: left;
+}
+
+.footer input {
+  border: 0;
+
+}
+
+.footer form {
+  background: white;
+  width: 406px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+}
+
+.footer form button {
+  background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+
+}
+
+.footer hr {
+  width: 100%;
+}
+
+.footer>p {
+
+  text-align: left;
+}
+
+
+.signup-form {
+  background: url("./Photos/torii-forest-illustration\ 1.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form input {
+  border: 0;
+  margin-left: 5%;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+
+
+  color: #313131;
+
+  opacity: 0.7;
+
+}
+
+.signup-form span {
+  background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+  color: white;
+  width: 93px;
+  height: 26px;
+
+}
+
+.signup-form div {
+  background: #FAFAFA;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  width: 406px;
+  height: 46px;
+  padding-left: 2%;
+}
+
+.signup-form button {
+  width: 86px;
+  background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+  color: white;
+  border: 1px solid white;
+  height: 27px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+
+}
+
+.blog {
+  padding: 4% 4% 1%;
+}
+
+
+.blog div {
+  background: url("./Photos/Rectangle\ 46.png");
+  height: 50vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog div h4 {
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 140px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 10.56px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.blog>h4 {
+  text-align: left;
+  font-family: 'Varela';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+
+  /* identical to box height, or 400% */
+
+
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.blog>p {
+  text-align: left;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  letter-spacing: 1.56px;
+
+  color: #000000;
+}
